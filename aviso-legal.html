@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Aviso legal | Reformas I.A.</title><meta content="Aviso legal de Reformas I.A." name="description"/><link href="assets/styles.css" rel="stylesheet"/>
+<style id="menu-logo-fix">
+.brand img,.footer-logo img{width:64px!important;height:64px!important;object-fit:contain!important;object-position:center!important;background:#fff!important;border-radius:8px!important;padding:3px!important;display:block!important}
+.brand{min-width:0}.brand>div{min-width:0}
+.mobile-menu{display:none;cursor:pointer;position:relative;z-index:101}
+.site-menu{position:fixed;top:82px;right:18px;width:min(330px,calc(100vw - 36px));background:#101010;color:#fff;border:1px solid #343434;border-radius:18px;padding:12px;box-shadow:0 20px 55px rgba(0,0,0,.35);z-index:100;opacity:0;visibility:hidden;transform:translateY(-10px);transition:.2s ease}
+.site-menu.open{opacity:1;visibility:visible;transform:translateY(0)}
+.site-menu a{display:block;padding:13px 15px;border-radius:10px;font-weight:700;font-size:14px;color:#fff}
+.site-menu a:hover{background:#242424;color:var(--gold)}
+.menu-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.18);z-index:90;opacity:0;visibility:hidden;transition:.2s}
+.menu-backdrop.open{opacity:1;visibility:visible}
+@media(max-width:760px){.mobile-menu{display:block;background:none;color:#fff;border:0;font-size:30px;line-height:1;padding:5px}.links,.nav-cta{display:none}.site-menu{top:78px;right:14px;width:calc(100vw - 28px);max-height:calc(100vh - 100px);overflow:auto}.brand img{width:58px!important;height:58px!important}.nav{height:78px}.brand{gap:10px}.brand strong{font-size:16px}.brand span{font-size:10px}}
+</style>
+</head><body><header class="top"><div class="wrap nav"><a class="brand" href="index.html"><img alt="Logo Reformas I.A." src="assets/logo.jpg"/><div><strong>REFORMAS I.A.</strong><span>Pladur · Escayola · Yeso · Reformas</span></div></a><nav class="links"><a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a href="trabajos.html">Trabajos</a><a href="nosotros.html">Conócenos</a><a href="contacto.html">Contacto</a></nav><a class="nav-cta" href="tel:+34618131153">Llamar</a><label for="menuToggle" class="mobile-menu" aria-label="Menú">☰</label></div></header>
+<input id="menuToggle" class="menu-toggle-input" type="checkbox" aria-label="Abrir menú">
+<div aria-hidden="true" class="menu-panel" id="siteMenu">
+<div class="menu-panel-inner">
+<div class="menu-head"><strong>REFORMAS I.A.</strong><label for="menuToggle" class="menu-close" aria-label="Cerrar menú">×</label></div>
+<nav aria-label="Menú principal" class="menu-nav">
+<a href="index.html">Inicio</a>
+<a href="servicios.html">Servicios</a>
+<a href="pladur.html">Pladur</a>
+<a href="escayola.html">Escayola</a>
+<a href="yeso.html">Yeso</a>
+<a href="reformas-integrales.html">Reformas integrales</a>
+<a href="trabajos.html">Trabajos realizados</a>
+<a href="nosotros.html">Conócenos</a>
+<a href="zonas.html">Zonas de trabajo</a>
+<a href="contacto.html">Contacto</a>
+</nav>
+</div>
+</div>
+<section class="page-hero"><div class="wrap"><div class="crumb">REFORMAS I.A.</div><h1>Aviso legal</h1><p>Información legal del sitio web.</p></div></section><section class="section"><div class="wrap"><h2>Aviso legal</h2><p class="lead">Este contenido es una plantilla informativa para el sitio web. Antes de publicar la web, el titular debe completar los datos legales, fiscales y de identificación que correspondan.</p></div></section><footer><div class="wrap footer-grid"><div><h3>REFORMAS I.A.</h3><p>Pladur, escayola, yeso y reformas integrales en toda Gran Canaria.</p></div><div><h3>Enlaces</h3><p><a href="pladur.html">Pladur</a><br/><a href="escayola.html">Escayola</a><br/><a href="yeso.html">Yeso</a><br/><a href="reformas-integrales.html">Reformas integrales</a></p></div><div><h3>Contacto</h3><p><a href="tel:+34618131153">618 13 11 53</a><br/><a href="mailto:escapladu@gmail.com">escapladu@gmail.com</a><br/><a href="https://wa.me/34618131153">WhatsApp</a></p></div></div><div class="wrap foot-bottom"><span>© 2026 Reformas I.A. · Trabajamos en toda Gran Canaria</span><span><a href="aviso-legal.html">Aviso legal</a> · <a href="privacidad.html">Privacidad</a></span></div></footer>
+<div class="menu-backdrop" id="menuBackdrop"></div>
+
+
+
+<style id="final-site-fixes">
+/* Menú funcional */
+.mobile-menu{display:grid !important;place-items:center;width:46px;height:46px;background:transparent;color:#fff;border:1px solid rgba(255,255,255,.18);border-radius:10px;font-size:27px;line-height:1;cursor:pointer;flex:0 0 auto}
+.links{display:none !important}
+.menu-panel{position:fixed;inset:0;background:rgba(0,0,0,.58);z-index:1000;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s ease,visibility .2s ease}
+.menu-panel.open{opacity:1;visibility:visible;pointer-events:auto}
+.menu-panel-inner{margin-left:auto;width:min(420px,88vw);height:100%;background:#fff;color:#151515;padding:26px 24px;box-shadow:-20px 0 50px rgba(0,0,0,.22);transform:translateX(100%);transition:transform .25s ease;overflow:auto}
+.menu-panel.open .menu-panel-inner{transform:translateX(0)}
+.menu-head{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e7e2d8;padding-bottom:18px;margin-bottom:10px}
+.menu-head strong{letter-spacing:.08em;font-size:15px}
+.menu-close{border:0;background:#151515;color:#fff;border-radius:50%;width:38px;height:38px;font-size:26px;line-height:1;cursor:pointer}
+.menu-nav{display:grid;gap:3px;padding:10px 0}
+.menu-nav a{display:block;padding:14px 12px;border-radius:10px;font-weight:750;font-size:16px}
+.menu-nav a:hover{background:#f5f3ef;color:#80672f}
+/* Todas las tarjetas de galería: pie blanco, sin fondos negros */
+.gallery .work{background:#fff !important;border:1px solid var(--line) !important;box-shadow:0 10px 30px rgba(0,0,0,.08) !important;position:relative !important;height:auto !important;isolation:auto !important}
+.gallery .work:after{display:none !important;content:none !important}
+.gallery .work img{position:static !important;width:100% !important;height:330px !important;object-fit:cover !important;display:block !important}
+.gallery .work-overlay{position:static !important;padding:18px 20px 21px !important;color:#151515 !important;background:#fff !important}
+.gallery .work-overlay .work-badge{color:#80672f !important;background:#eee1c6 !important;border:0 !important}
+.gallery .work-overlay strong,.gallery .work-overlay h3{color:#151515 !important}
+.gallery .work-overlay small,.gallery .work-overlay span,.gallery .work-overlay p{color:#666 !important}
+.gallery .work figcaption{background:#fff !important;color:#151515 !important;padding:18px 20px 21px !important}
+.gallery .work figcaption strong{color:#151515 !important}
+.gallery .work figcaption span,.gallery .work figcaption small{color:#666 !important}
+.process .work figcaption{background:#fff !important;color:#151515 !important}
+.brand img,.footer-logo img{object-fit:contain !important;object-position:center !important;background:#fff !important;padding:4px !important;border-radius:8px !important}
+@media(max-width:760px){.gallery .work img{height:360px !important}.menu-panel-inner{width:min(390px,92vw)}}
+.menu-toggle-input{position:absolute;opacity:0;pointer-events:none;width:1px;height:1px}
+.menu-toggle-input:checked ~ .menu-panel{opacity:1;visibility:visible;pointer-events:auto}
+.menu-toggle-input:checked ~ .menu-panel .menu-panel-inner{transform:translateX(0)}
+</style>
+
+</body></html>

@@ -1,0 +1,2 @@
+ABRIR index.html para ver la web.
+El menú de las tres rayas de arriba a la derecha abre las páginas secundarias.
